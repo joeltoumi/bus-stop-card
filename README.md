@@ -37,6 +37,13 @@ resources:
   type: js
 ```
 
+## Usage:
+```yaml
+type: custom:bus-stop-card
+entity: sensor.bus_stop_xxxxx
+stop_name: Custom name
+```
+
 # Main Config:
 | Parameters  | Type     | Description                                                                                                                |
 |:------------| :------- |:---------------------------------------------------------------------------------------------------------------------------|
