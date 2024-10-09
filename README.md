@@ -41,7 +41,7 @@ resources:
 Create a card and add the yaml code manually:
 ```yaml
 type: custom:crtm-mobility-card
-entity: sensor.bus_stop_xxxxx
+entity: sensor.crtm_stop_xxxxx
 stop_name: Custom name
 ```
 
