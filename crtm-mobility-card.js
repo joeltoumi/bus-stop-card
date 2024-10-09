@@ -82,8 +82,14 @@ class CrtmMobilityCard extends HTMLElement {
 
         html += `<tr><td class="shrink"><span class="line">${title}</span></td>`;
         if (Array.isArray(nextArrivals)) {
-          for (let i = 0; i < nextArrivals.length; i++) {
-            html += `<td class="shrink" style="text-align:center;">${nextArrivals[i]}</td>`;
+          const limitedArrivals = nextArrivals.slice(0, 3);
+          for (let i = 0; i < limitedArrivals.length; i++) {
+            html += `<td class="shrink" style="text-align:center;">${limitedArrivals[i]}</td>`;
+          }
+          if (limitedArrivals.length < 3) {
+            for (let i = limitedArrivals.length; i < 3; i++) {
+              html += `<td class="shrink" style="text-align:center;"></td>`;
+            }
           }
         } else {
           html += `<td colspan="3">Sin información</td>`;

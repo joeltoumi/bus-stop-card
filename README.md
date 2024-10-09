@@ -16,11 +16,11 @@ Read through these two resources before posting issues to GitHub.
 
 
 ## Features
-* Displays bus stop information including route and next arrival times.
-* Optional customization of bus stop name via YAML configuration.
+* Displays Madrid public transport stop information including route and next arrival times.
+* Optional customization of the stop name via YAML configuration.
 * Automatically updates arrival times and shows the last request time.
 * Responsive design to fit various screen sizes.
-* Up to three next arrival times shown for each bus route.
+* Up to three next arrival times shown for each route.
 * Flexible formatting with customizable columns for route names and times.
 
 ## Installation:
@@ -46,9 +46,9 @@ stop_name: Custom name
 ```
 
 # Main Config:
-| Parameters  | Type     | Description                                                                                                                |
-|:------------| :------- |:---------------------------------------------------------------------------------------------------------------------------|
-| `type`      | `string` | **Required**. Type of the card                                                                                             |
-| `entity`    | `string` | **Required**. Entity from the CRTM integration                                                                             |
-| `stop_name` | `string` | **Optional**. Custom bus stop name. <br/>If not provided, the stop number will be displayed in the name.                    |
+| Parameters  | Type     | Description                                                                                                               |
+|:------------| :------- |:--------------------------------------------------------------------------------------------------------------------------|
+| `type`      | `string` | **Required**. Type of the card                                                                                            |
+| `entity`    | `string` | **Required**. Entity from the CRTM integration                                                                            |
+| `stop_name` | `string` | **Optional**. Custom stop name. <br/>If not provided, the stop number will be displayed in the name.                      |
 
