@@ -38,6 +38,7 @@ resources:
 ```
 
 ## Usage:
+Create a card and add the yaml code manually:
 ```yaml
 type: custom:bus-stop-card
 entity: sensor.bus_stop_xxxxx
