@@ -4,17 +4,17 @@ This card will only work if you've installed a custom-component to feed it. A li
 
 ## Features
 * Displays bus stop information including route and next arrival times.
-* Optional customization of bus stop name via YAML configuration.
+* Optional customization of bus/train stop name via YAML configuration.
 * Automatically updates arrival times and shows the last request time.
 * Responsive design to fit various screen sizes.
-* Up to three next arrival times shown for each bus route.
+* Up to three next arrival times shown for each route.
 * Flexible formatting with customizable columns for route names and times.
 
 <br/><br/>
 
-| View                                                                               | 
-|------------------------------------------------------------------------------------| 
-| ![image](https://github.com/joeltoumi/bus-stop-card/blob/master/card.png?raw=true) | 
+| View                                                                                    | 
+|-----------------------------------------------------------------------------------------| 
+| ![image](https://github.com/joeltoumi/crtm-mobility-card/blob/master/card.png?raw=true) | 
 
 
 

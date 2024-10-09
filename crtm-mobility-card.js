@@ -1,4 +1,4 @@
-class BusStopCard extends HTMLElement {
+class CrtmMobilityCard extends HTMLElement {
 
   set hass(hass) {
     const entityId = this.config.entity;
@@ -113,4 +113,4 @@ class BusStopCard extends HTMLElement {
   }
 }
 
-customElements.define('bus-stop-card', BusStopCard);
+customElements.define('crtm-mobility-card', CrtmMobilityCard);
